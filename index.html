@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.jpg">
+    <title>My Personal Portfolio &#9829; &#9996;</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: #e3f2fd;
+            color: #333;
+        }
+        header {
+            background-color: #64b5f6;
+            color: white;
+            padding: 15px;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin:  0 15px;
+        }
+        
+        nav li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+
+        }
+        
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .content, .aside-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+       
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+            max-width: 600px;
+            flex: 1;
+        }
+       
+        
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            
+        
+        }
+      
+        footer {
+           background: #64b5f6;
+           color: white;
+           padding: 10px;
+           position: relative;
+           bottom: 0;
+           width: 100%;
+           text-align: center;
+        }
+
+        aside {
+            background: #bbdefb;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px;
+            max-width: 400px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+        }
+        .article-container {
+            display: flex;
+            gap: 20px;
+            
+        }
+        .info {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: left;
+        }
+       
+        .info dl {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .info dt {
+            font-weight: bold;
+            display: inline;
+        }
+        .info dd {
+            display: inline;
+            margin: 0 0 5px 10px;
+        }
+
+
+    </style>
+    
+ 
+
+</head>
+<body>
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <nav>
+            <ul>
+            <li><a href="#video">Video</a></li> 
+            <li><a href="#Location">Location</a></li> 
+            <li><a href="#image-map">Map</a></li> 
+            <li><a href="#emjois">Emojis</a></li> 
+            <li><a href="#article-container">About us</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+            
+        <article class="article-container">
+            <div class="info">
+                <h2>"Our Personal Information"</h2>
+                <dl>
+                    <dt>Name:</dt>
+                    <dd>Kyle Lucero</dd>
+
+                    <dt>Age:</dt>
+                    <dd>19</dd>
+
+                    <dt>Email:</dt>
+                    <dd>lucerokyle@gmail.com</dd>
+
+                    <dt>Address:</dt>
+                    <dd>46-C,Aboitiz st.Parian,Cebu city</dd>
+
+                    <dt>Phone number</dt>
+                    <dd>09310154009</dd>
+
+                </dl>
+                <div class="info">
+                    <hr>
+                    
+                    <dl>
+                        <dt>Name:</dt>
+                        <dd>Lyra Mae M. Sayson</dd>
+    
+                        <dt>Age:</dt>
+                        <dd>19</dd>
+    
+                        <dt>Email:</dt>
+                        <dd>saysonlyrahmae@gmail.com</dd>
+    
+                        <dt>Address:</dt>
+                        <dd>1139 Andres abellana Guadalupe, Cebu city</dd>
+    
+                        <dt>Phone number</dt>
+                        <dd>09930435488</dd>
+    
+                    </dl>
+    
+                </div>
+
+            </div>
+
+
+
+        </article>
+            
+
+  
+    <div class="aside-container">
+        <section id="video">
+            <h2>My favorite YouTuber's Html  totorial</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2oCN2q1x3c4?si=kfrOZPzAVYG-TX8t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+        </section>
+        <aside id="Location">
+            <h2>My university Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591781199338!2d123.89344197411567!3d10.294438167900921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1742111727132!5m2!1sen!2sph" width="800px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+    </div>
+        
+            <aside>
+            <h2>Why learn HTML & CSS?</h2>
+            <ul>
+                <li>HTML is the building block of every websites.</li>
+                <li>CSS makes websites beautiful and stylish.</li>
+                <li>Knowing both helps you customize and create your own web pages.</li>
+                <li>Its a great starting point for learning web development!</li>
+            </ul>
+        </aside>
+       
+        <section id="image-map" >
+            <h2>Websites I always use as resources</h2>
+            <a href="https://www.google.com/webhp?authuser=1"target="_blank">
+            <img src="Google.png" width="200px" alt="Google"> </a>
+            <a href="https://www.google.com/search?q=wikipedia&oq=wiki&gs_lcrp=EgZjaHJvbWUqCggAEAAYsQMYgAQyCggAEAAYsQMYgAQyDwgBEEUYORiDARixAxiABDITCAIQLhiDARjHARixAxjRAxiABDIKCAMQABixAxiABDIGCAQQRRg8MgYIBRBFGD0yBggGEEUYPTIGCAcQBRhA0gEIMjAzNWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">
+                <img src="Wikipedia.png"width="200px" alt="wikipedia" >
+            </a>
+
+        </section>  
+        
+        <section class="Character">
+            <h2>Special Character and Symbol Entities</h2>
+            <p>This is my Portfoliois &hearts; and I love coding in HTML & CSS! &copy 2025</p>
+
+        </section>
+        <section id="emjois">
+            <h2>My favorite emojis: &#128525; &#128170; &#128640; &#128512; </h2>
+            
+        </section>
+
+        <section id="resources">
+            <h2>More source about HtML and CSS</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=ZzSaK5gYvmc" target="_blank">Internal and External HTML links</a></li>
+                <li><a href="https://www.youtube.com/watch?v=5B98mFLGaWA" target="_blank">HTML iframe Tutorial</a></li>
+            </ul>
+        </section>
+       
+
+        
+    </main>
+
+    <footer>
+        <p>&copy;2025 My Personal Portfolio</p>
+    </footer>
+
+
+    
+</body>
+</html>
